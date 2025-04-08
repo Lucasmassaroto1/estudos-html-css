@@ -1,0 +1,24 @@
+#div1{
+    background: rgba(255, 0, 0, 0.5);
+    padding: 10px;
+    width: 90%;
+    position: sticky;
+    height: 200px;
+    top: 0;
+}
+#div2{
+    background: rgba(0, 255, 0, 0.5);
+    padding: 10px;
+    width: 90%;
+    height: 50px;
+    position: static;
+}
+#div3{
+    background: rgba(0, 0, 255, 0.5);
+    padding: 10px;
+    width: 30px;
+    height: 30px;
+    position: static;
+    top: 20px;
+    right: 0;
+}
