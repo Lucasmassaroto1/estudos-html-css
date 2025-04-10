@@ -1,0 +1,11 @@
+:popover-open{
+    width: 300px;
+    padding: 0 12px;
+    border-radius: 12px;
+}
+::backdrop{
+    background: rgba(0, 0, 0, 0.32);
+}
+.popover-container :popover-open{
+    inset: unset;
+}

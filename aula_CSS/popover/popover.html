@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="popover.css">
+    <title>popover</title>
+</head>
+<body>
+    <h1>Web Design - Popover</h1>
+    <button popovertarget="my-popover">Toggle popover</button>
+    <div id="my-popover" popover>Este texto aparecera apos clicar no botão</div>
+    <hr>
+    <button popovertarget="my-popover2">Popover auto (default)</button>
+    <div id="my-popover2" popover="auto">Voce clicou no botão</div>
+    <hr>
+    <button popovertarget="my-popover3">Popover manual</button>
+    <div id="my-popover3" popover="manual">Este texto é manual</div>
+    <hr>
+    <button popovertarget="my-popover4" popovertargetaction="show">Abrir Popover manual</button>
+    <button popovertarget="my-popover4" popovertargetaction="hide">Fechar Popover manual</button>
+    <div id="my-popover4" popover="manual">Este texto é manual</div>
+    <hr>
+    <div class="popover-container">
+        <button popovertarget="my-popover5">Toggle Popover dentro de div</button>
+        <div popover id="my-popover5">Texto de ajuda do Popover</div>
+    </div>
+</body>
+</html>
