@@ -1,0 +1,12 @@
+body{
+    font-size: 200%;
+}
+:root{
+    --color: red;
+}
+p{
+    color: var(--color);
+}
+.div1{
+    --color: green;
+}
