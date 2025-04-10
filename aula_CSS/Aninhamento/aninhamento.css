@@ -1,0 +1,24 @@
+/* .container .div1{
+    background: red;
+} */
+.container{
+    color: blue;
+    .div1{
+        background: red;
+    }
+    .paragrafo{
+        font-weight: bold;
+        &.destaque{
+            color: orange;
+        }
+        a{
+            color: green;
+            &:hover{
+                text-decoration: none;
+            }
+        }
+    }
+}
+.div1{
+    background: yellow;
+}
