@@ -1,0 +1,18 @@
+body{
+    background: dimgray;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    font-weight: 300px;
+}
+.cards_container{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+.card{
+    background: rgba(39, 39, 39);
+    color: white;
+    padding: 1rem;
+    box-sizing: border-box;
+}
